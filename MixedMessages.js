@@ -1,1 +1,7 @@
-console.log("Testing")
+const ingredients = ['apple', 'abalone', 'artichoke', 'avocado', 'almond'];
+const preparations = ['baked', 'boiled', 'blanched', 'braised', 'infused', 'pressure cooked', 'simmered', 'steamed', 'steeped', 'toasted', 'stewed', 'grilled', 'fried', 'deep fried', 'microwaved', 'roasted', 'grilled', 'seared', 'smoked', 'brined', 'dried', 'fermented', 'marinated', 'pickled', 'salted', 'sugared'];
+const flavorings = ['black pepper', 'garlic', 'onion', 'mustard', 'caraway', 'coriander', 'cumin', 'allspice', 'fennel', 'celery seed', 'dill', 'ginger', 'white pepper', 'turmeric', 'anise', 'cardamom', 'sesame', 'chile', 'beet', 'dukkah', 'galangal', 'grains of paradise', 'mase', 'lime leaf', 'sichuan pepper', 'anise', 'sumac', 'tamarine', 'juniper', 'chervil', 'lavender', 'mint', 'cilantro', 'rosemary' ,'curry', 'basil', 'fenugreek', 'parsley', 'tarragon', 'oregano', 'bay', 'thyme', 'lemongrass', 'lemon', 'lime', 'sage', 'savory', 'apple pie spice', 'sesame', 'cinnamon', 'everything bagel spice', 'honey', 'fish sauce', 'soy sauce', 'chipotle', 'ras al hanout'];
+let ingredientDuJour = ingredients[Math.floor(Math.random() * ingredients.length)];
+let preparationDuJour = preparations[Math.floor(Math.random() * preparations.length)];
+let flavoringDuJour = flavorings[Math.floor(Math.random() * flavorings.length)];
+console.log(`Your ingredient du jour is ${preparationDuJour} ${ingredientDuJour} with ${flavoringDuJour}`);
