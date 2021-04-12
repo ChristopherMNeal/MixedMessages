@@ -31,4 +31,10 @@
 ### Timeline
 >I plan to complete this project over the course of one day.
 
+## Results
+>As of this commit, the program is functional and has a good base of ingredients, preparations, and flavorings.  It does a good job of creating new food ideas, as intended.  Although the returned food ideas are occasionally silly sounding, they still make you think, which is the purpose.
+
+## Improvements
+>This program could use more inputs (i.e. ingredients, etc).  Furthermore, better organiation of the inputs would be helpful.
+>A big improvement would be a way to import lists and check for duplicates.
 
