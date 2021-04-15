@@ -26,7 +26,7 @@
 >For research,  I plan to consult the book *The Flavor Bible* for its list of ingredients, preparations, and seasonings.
 
 ### Tools
->This project will be built using Javascript.
+>This project will be built using Javascript.  To use, simply run the program through the terminal and it will return your message.
 
 ### Timeline
 >I plan to complete this project over the course of one day.
